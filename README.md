@@ -1,8 +1,20 @@
 # Adopt a pet
 
-A high-performance Vue 3 Single Page Application (SPA) showcasing advanced state management and component architecture. Features include dynamic data filtering, a reactive photo gallery, and complex form handling for pet adoption requests. Built with a focus on clean code, reusability, and responsive UI/UX principles.
+## Technical highlights
 
-### Built using vue 3 and tailwind css
+This project serves as a showcase of Clean Architecture and modern frontend patterns using Vue 3. Despite its minimalist UI, the underlying logic follows industry-standard best practices for scalability and performance.
+
+* Composition API & Custom Hooks: All business logic is decoupled from the UI using the Composables pattern (use-pet-details.js), ensuring a modular, testable, and highly readable codebase.
+
+* Reactive State Management: Utilizes a centralized reactive state object to manage global page data, eliminating "prop drilling" and maintaining a single source of truth.
+
+* High-Performance Search: Implements a debounced search strategy (via Lodash) to minimize expensive re-renders and provide a fluid, lag-free filtering experience.
+
+* Optimistic UI Updates: Features an integrated error-handling and rollback system (using deep cloning/Object.assign). This allows the UI to update instantly upon user action, significantly improving the perceived speed of the application.
+
+* Clean Component Design: Built with atomic, reusable components (Input, Select, Card, CustomModal) designed for easy integration and consistent styling.
+
+* Zero-Latency Interactions: The application simulates complex API interactions entirely on the client-side to demonstrate a high-performance, desktop-like web experience.
 
 ### Front-end version only
 
