@@ -1,5 +1,9 @@
 # Adopt a pet
 
+<p align="center">
+  <img src="assets/ui.png" alt="ui" width="100%">
+</p>
+
 ## Technical highlights
 
 This project serves as a showcase of Clean Architecture and modern frontend patterns using Vue 3. Despite its minimalist UI, the underlying logic follows industry-standard best practices for scalability and performance.
