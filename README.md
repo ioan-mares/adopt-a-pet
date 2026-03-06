@@ -1,5 +1,7 @@
 # Adopt a pet
 
+A high-performance Vue 3 Single Page Application (SPA) showcasing advanced state management and component architecture. Features include dynamic data filtering, a reactive photo gallery, and complex form handling for pet adoption requests. Built with a focus on clean code, reusability, and responsive UI/UX principles.
+
 ### Built using vue 3 and tailwind css
 
 ### Front-end version only
